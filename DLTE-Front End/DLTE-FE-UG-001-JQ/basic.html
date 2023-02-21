@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setting up JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
+    <script>
+        $(document).ready(()=>{
+            alert("JQuery has begun")
+
+            $("body").css("background-color","lavender")
+            $("u1").mouseenter(()=>{
+                //let every=$(this).html()
+                alert($("u1").text())
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>bank 
+
+    </h1>
+    <u1>
+        <li>sms banking</li>
+        <li>mobile banking</li>
+        <li>wallet banking</li>
+        <li>internet banking</li>
+    </u1>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANGE</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
+
+    <script>
+        $(document).ready(()=>{
+            $("p").click(()=>{
+                $("p").text("bootstrap better framework")
+
+            })
+            $("p").dblclick(()=>{
+                $("p").text("jq effiecent than js")
+            })
+            $("img").mouseenter(()=>{
+                $("img").attr("width","1000px")
+                $("img").attr("height","500px")
+            })
+
+            // to change the image
+            $("img").mouseleave(()=>{
+                $("img").attr(src="download")
+            })
+
+
+        })
+    </script>
+</head>
+<body>
+    <p>lets do the std script</p>
+    <img src="download(2).jpg" width="200px" height="200px"/>
+    
+</body>
+</html>
